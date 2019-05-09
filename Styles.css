@@ -1,26 +1,20 @@
-@media only screen and (min-width: 375px) {
-#iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-#iframe {
+.frame-area {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: 400px;
+  height: 650px;
+  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  }
+
+
+
+.video-container {
     position: relative;
     padding-bottom: 56.25%;
+    padding-top: 35px;
     height: 0;
- }
-#video {
-display: none;
-}}
-@media only screen and (max-width: 375px) {
-#video {
- display: block;  
- }
-#iframe {
- display: none;
- }
+    overflow: hidden;
 }
-
-
