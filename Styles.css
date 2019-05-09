@@ -1,8 +1,8 @@
 
 
-@media (max-width:675px) {
+@media (max-width:1080px) {
   iframe {
-    height: 500px
+    height: 50%
     width : 98%
   }
 }
