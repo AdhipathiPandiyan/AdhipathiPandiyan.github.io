@@ -1,20 +1,14 @@
-.frame-area {
-  display: block;
-  width: 100%;  /* RESPONSIVE WIDTH */
-  max-width: 400px;
-  height: 650px;
-  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
-  border: #999999 1px solid;
-  margin: 0px;
-  padding: 0px;
-  }
-
-
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
