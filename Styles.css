@@ -1,12 +1,4 @@
-iframe {
-  width: 100%;
-  height: 75%;
-  border: none;
-  overflow: hidden;
-  min-height:350px;
-  overflow-y: scroll !important;
 
-}
 
 @media (max-width:675px) {
   iframe {
